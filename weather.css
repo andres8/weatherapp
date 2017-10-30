@@ -1,0 +1,218 @@
+body{
+	font-size: 16px;
+	color: rgb(233, 227, 211);
+	font-family: montserrat;
+	}
+.atmosphere { background-size: cover; 
+				background-image: url("awe-backgrounds/atmosphere.jpg"); 
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				background-color: #66999;
+			}
+
+.breeze { background-size: cover; 
+				background-image: url("awe-backgrounds/breeze.jpg"); 
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				background-color: #66999;
+			}			
+
+.calm { background-size: cover; 
+				background-image: url("awe-backgrounds/calm.jpg"); 
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				background-color: #66999;
+			}
+
+.calm-night { background-size: cover; 
+				background-image: url("https://image.ibb.co/me07RR/calm_night.jpg"); 
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				background-color: #66999;
+			}
+
+.cloudy-night { background-size: cover; 
+				background-image: url("https://image.ibb.co/kQG30m/cloudy_night.jpg"); 
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				background-color: #66999;
+			}
+
+.drizzle { background-size: cover; 
+				background-image: url("https://image.ibb.co/eVsyY6/drizzle.jpg"); 
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				background-color: #66999;
+			}
+
+.hail { background-size: cover; 
+				background-image: url("awe-backgrounds/hail.jpg"); 
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				background-color: #66999;
+			}
+
+.cloudy { background-size: cover; 
+				background-image: url("https://image.ibb.co/n7UO0m/cloudy.jpg"); 
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				background-color: #66999;
+			}
+
+.hurricane { background-size: cover; 
+				background-image: url("awe-backgrounds/hurricane.jpg"); 
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				background-color: #66999;
+			}
+
+.rain { background-size: cover; 
+				background-image: url("https://image.ibb.co/b6rmLm/rain.jpg"); 
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				background-color: #66999;
+			}
+
+.sleet { background-size: cover; 
+				background-image: url("awe-backgrounds/sleet.jpg"); 
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				background-color: #66999;
+			}
+
+.snow { background-size: cover; 
+				background-image: url("https://image.ibb.co/hbZLD6/snow.jpg"); 
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				background-color: #66999;
+			}
+
+.sunny { background-size: cover; 
+				background-image: url("https://image.ibb.co/gE68Y6/sunny.jpg"); 
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				background-color: #66999;
+			}
+
+.thunderstorm { background-size: cover; 
+				background-image: url("https://image.ibb.co/ipYSRR/thunderstorm.jpg"); 
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				background-color: #66999;
+			}
+
+.tornado { background-size: cover; 
+				background-image: url("https://image.ibb.co/kLorLm/tornado.jpg"); 
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				background-color: #66999;
+			}
+
+.tropical-storm { background-size: cover; 
+				background-image: url("awe-backgrounds/tropical-storm.jpg"); 
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				background-color: #66999;
+			}
+
+.windy { background-size: cover; 
+				background-image: url("awe-backgrounds/windy.jpg"); 
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				background-color: #66999;
+			}
+
+.subtitle h2{
+	font:normal 4rem montserrat;
+ color:#FFFFFF;
+ text-shadow: 0 1px 0 #ccc,
+ 0 2px 0 #c9c9c9,
+ 0 3px 0 #bbb,
+ 0 4px 0 #b9b9b9,
+ 0 5px 0 #aaa,
+ 0 6px 1px rgba(0,0,0,.1),
+ 0 0 5px rgba(0,0,0,.1),
+ 0 1px 3px rgba(0,0,0,.3),
+ 0 3px 5px rgba(0,0,0,.2),
+ 0 5px 10px rgba(0,0,0,.25),
+ 0 10px 10px rgba(0,0,0,.2),
+ 0 20px 20px rgba(0,0,0,.15)
+}
+
+.iconos{
+	font-size: 2rem;
+}
+
+.togglex{
+	margin-bottom: 3rem;
+}
+
+#carlos, .ubicacion, .descripcion, .velocidad{
+	font:normal 3rem montserrat;
+ color:#FFFFFF;
+ text-shadow: 0 1px 0 #ccc,
+ 0 2px 0 #c9c9c9,
+ 0 3px 0 #bbb,
+ 0 4px 0 #b9b9b9,
+ 0 5px 0 #aaa,
+ 0 6px 1px rgba(0,0,0,.1),
+ 0 0 5px rgba(0,0,0,.1),
+ 0 1px 3px rgba(0,0,0,.3),
+ 0 3px 5px rgba(0,0,0,.2),
+ 0 5px 10px rgba(0,0,0,.25),
+ 0 10px 10px rgba(0,0,0,.2),
+ 0 20px 20px rgba(0,0,0,.15);
+}
+
+.btn, .btn-large {
+    background-color: rgba(108, 157, 153, 0.49);
+}
+
+.btn:hover, .btn-large:hover {
+    background-color: #89a09e;
+}
+
+.foot{
+	margin-top: 13rem;
+}
+
+@media (max-width: 767px) {
+  body{
+    font-size: 14px;
+  }
+}  
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Local Weather App</title>
+    <meta charset="UTF-8">
+     <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/1.3.2/css/weather-icons.min.css" />
+  <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="weather.css">
+  </head>
+  <body id="main-background">
+  	<section class="main-container">
+    	<div id = "title" class="center-align subtitle">
+  			<h2>Andres local weather App<i class="wi wi-day-sunny"></i></h2>
+  			<div class="iconos">
+  			<i class="wi wi-day-lightning"></i>
+  			<i class="wi wi-night-thunderstorm"></i>
+  			<i class="wi wi-day-snow"></i>
+  			<i class="wi wi-sprinkle"></i>
+  			<i class="wi wi-day-sunny"></i>
+  			<i class="wi wi-cloudy"></i>
+  			<i class="wi wi-night-rain-mix"></i>
+  			<i class="wi wi-sunset"></i>
+  			<i class="wi wi-sunrise"></i>
+  			<i class="wi wi-day-cloudy-windy"></i>
+  			<i class="wi wi-night-rain"></i>
+  			<i class="wi wi-night-alt-snow"></i>
+  			</div>
+		</div>
+		<div id="carlos" class="center-align meteo">
+		
+		</div>
+		<div class="center-align togglex">
+			<input id="toggle-event" type="checkbox" checked data-toggle="toggle" data-on="Celsius" data-off="Fahrenheit">
+		</div>
+		<div class="row center-align">
+			<div id="emplacement" class="ubicacion">
+			
+			</div>
+			<div class="descripcion">
+				<p id="main"></p>	
+			</div>
+			<div id="vent" class="velocidad">
+				
+			</div>
+		</div>
+	</section>
+	
+			<div class="col s12 l3 center-align push-l6 foot">
+				&copy; 2017. Written and coded by <a href="https://www.freecodecamp.com/andres8" target= "_blank">Andres Diaz</a>
+			</div>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+     <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+     <script src='weather.js'></script>
+  </body>
+</html>

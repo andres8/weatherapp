@@ -10,6 +10,7 @@ if (navigator.geolocation) {
 		success: function(meteo){
 			//$("#main-background").html("");
 			var id = meteo.weather[0].id;
+			console.log(meteo.weather[0].id);
 			var u = new Date();
 			var hours = u.getHours();
 			switch (true){
@@ -34,10 +35,10 @@ if (navigator.geolocation) {
 				case id===800 && hours<19 && hours>6:
 				$('#main-background').addClass('sunny');
 				break;
-				case id>800 && id<=804 && hours<19 && hours>6:
+				case id>700 && id<=804 && hours<19 && hours>6:
 				$('#main-background').addClass('cloudy');
 				break;
-				case id>800 && id<=804 && hours>=19:
+				case id>700 && id<=804 && hours>=19:
 				$('#main-background').addClass('cloudy-night');
 				break;
 				case id===900:

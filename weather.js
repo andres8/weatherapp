@@ -50,10 +50,8 @@ if (navigator.geolocation) {
 			$('#toggle-event').change(function() {
 				if($(this).prop('checked')){
 					$("#carlos").html("<img src='https://openweathermap.org/img/w/"+meteo.weather[0].icon+".png'>"+Math.round(meteo.main.temp)+" <i class='wi wi-celsius'></i>");
-					console.log("hola");
 				}
 				else{
-					console.log("adios");
 					$("#carlos").html("<img src='https://openweathermap.org/img/w/"+meteo.weather[0].icon+".png'>"+Math.round(ToFaren(meteo.main.temp))+" <i class='wi wi-fahrenheit'></i>");
 				}
 			});
